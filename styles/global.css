@@ -1,0 +1,30 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+html {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  color: var(--purple);
+}
